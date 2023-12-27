@@ -61,7 +61,7 @@ const FileUploadForm = ({ portalId, contentType }) => {
         </div>
       ) : (
         <div>
-          <h2 className="text-white font-medium mb-1 ml-2 pt-2">
+          <h2 className="text-white font-medium mb-1 ml-3 pt-10 text-mb">
             Portal {portalId}, content-Type {contentType}
           </h2>
 

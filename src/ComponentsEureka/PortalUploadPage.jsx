@@ -44,7 +44,7 @@ const PortalUploadPage = () => {
   return (
     <>
       <section className=" bg-background-950 w-full  ">
-        <h1 className=" text-text-100 font-bold shadow-md text-center mb-4 md:text-[55px] sm:text-[40px] text-[30px] font-OpenSans ">
+        <h1 className=" text-text-100 font-bold shadow-md text-center mb-4 md:text-[55px] sm:text-[40px] text-[30px] font-OpenSans pt-5 ">
           Upload your Files Here
         </h1>
         <div className="sm:mx-10 ">
@@ -53,11 +53,11 @@ const PortalUploadPage = () => {
               value={text}
               onChange={handlechange}
               placeholder="Abstract"
-              className="bg-secondary-600 py-2 px-6 rounded-xl outline-none sm:w-[400px] w-[350px] mr-4 text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 "
+              className="bg-secondary-600 py-2 px-6 rounded-xl outline-none sm:w-[400px] w-[350px] mr-4 text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 mt-5"
             />
             <div>
               <button
-                className="   bg-secondary-600 py-2 px-6 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 mt-2"
+                className="   bg-secondary-600 py-2 px-6 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 mt-2 mt-5"
                 onClick={handleupload}>
                 upload
               </button>
@@ -71,7 +71,7 @@ const PortalUploadPage = () => {
           <FileUploadForm portalId={5} contentType="image" />
           <Link to="/data">
             <button
-              className="   bg-secondary-600 py-2 px-6 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 mt-2"
+              className="   bg-secondary-600 py-2 px-6 rounded-xl outline-none w-fit text-text-100 font-bold shadow-md hover:bg-secondary-800 ml-2 mt-7 mb-7 "
               onClick={handleclick}>
               See Your Content
             </button>
